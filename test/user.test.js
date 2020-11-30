@@ -11,7 +11,7 @@ describe('Test users service', function() {
         server.close();
     });
 
-    it('responds to basic GET request', function(done) {
+    it('responds to basic GET request.', function(done) {
         supertest(server)
             .get('/users')
             .expect(200, done);
