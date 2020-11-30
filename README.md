@@ -1,3 +1,1 @@
 # microservice-users
-
-## Test
